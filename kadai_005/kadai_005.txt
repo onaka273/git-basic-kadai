@@ -1,24 +1,15 @@
 PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git init
 Initialized empty Git repository in C:/Users/saksi/Desktop/gitrensyu/git_challenge/.git/
-PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git add .                                                                         
-PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git commit -m "1回目のコミット"                                                   
-[master (root-commit) f72910d] 1回目のコミット
+PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git add hello_world.txt
+PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git commit -m "1回目のコミット"
+[master (root-commit) 8761cdf] 1回目のコミット
  1 file changed, 1 insertion(+)
  create mode 100644 hello_world.txt
-PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git add .
+PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git add hello_world.txt        
 PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git commit -m "2回目のコミット"
-[master bed5ee8] 2回目のコミット
+[master 462553c] 2回目のコミット
  1 file changed, 2 insertions(+), 1 deletion(-)
-PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git log                                                                           
-commit bed5ee80d8159311ea636658e5b4d2cb03c36a1c (HEAD -> master)
-Author: onaka273 <onaka273@gmail.com>
-Date:   Fri Jul 11 05:52:35 2025 +0900
-
-    2回目のコミット
-
-commit f72910d6b1fc9762941b510e1cb4819090d8232f
-Author: onaka273 <onaka273@gmail.com>
-Date:   Fri Jul 11 05:52:03 2025 +0900
-
-    1回目のコミット
+PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git log --oneline
+462553c (HEAD -> master) 2回目のコミット
+8761cdf 1回目のコミット
 PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> 
