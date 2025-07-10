@@ -1,0 +1,24 @@
+PS C:\Users\saksi\Desktop\gitrensyu\kadai_005\git_challenge> git init 
+Initialized empty Git repository in C:/Users/saksi/Desktop/gitrensyu/kadai_005/git_challenge/.git/
+PS C:\Users\saksi\Desktop\gitrensyu\kadai_005\git_challenge> git add .
+PS C:\Users\saksi\Desktop\gitrensyu\kadai_005\git_challenge> git commit -m "1回目のコミット"
+[master (root-commit) d410bbd] 1回目のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\saksi\Desktop\gitrensyu\kadai_005\git_challenge> git add .
+PS C:\Users\saksi\Desktop\gitrensyu\kadai_005\git_challenge> git commit -m "2回目のコミット"
+[master c02853c] 2回目のコミット
+ 1 file changed, 2 insertions(+)
+PS C:\Users\saksi\Desktop\gitrensyu\kadai_005\git_challenge> git log
+commit c02853cba291eeeec0ae1f2af2fa439e38bfcaa8 (HEAD -> master)
+Author: onaka273 <onaka273@gmail.com>
+Date:   Fri Jul 11 05:35:22 2025 +0900
+
+    2回目のコミット
+
+commit d410bbd87b91fa9ce2b433e974ed7202bb6f8974
+Author: onaka273 <onaka273@gmail.com>
+Date:   Fri Jul 11 05:34:54 2025 +0900
+
+    1回目のコミット
+PS C:\Users\saksi\Desktop\gitrensyu\kadai_005\git_challenge> 
