@@ -1,15 +1,16 @@
-PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git init
+PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git init     
 Initialized empty Git repository in C:/Users/saksi/Desktop/gitrensyu/git_challenge/.git/
-PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git add hello_world.txt
-PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git commit -m "1回目のコミット"
-[master (root-commit) 8761cdf] 1回目のコミット
- 1 file changed, 1 insertion(+)
- create mode 100644 hello_world.txt
+PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> echo "Hello, world!" >> hello_world.txt                                 
 PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git add hello_world.txt        
-PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git commit -m "2回目のコミット"
-[master 462553c] 2回目のコミット
- 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git commit -m "1回目のコミット"
+[master (root-commit) 1485008] 1回目のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> echo こんにちは、世界！ >> hello_world.txt
+PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git add hello_world.txt        
+PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git commit -m "2回目のコミット、日本語訳を追加"
+[master e37a2a5] 2回目のコミット、日本語訳を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
 PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> git log --oneline
-462553c (HEAD -> master) 2回目のコミット
-8761cdf 1回目のコミット
-PS C:\Users\saksi\Desktop\gitrensyu\git_challenge> 
+e37a2a5 (HEAD -> master) 2回目のコミット、日本語訳を追加
+1485008 1回目のコミット
